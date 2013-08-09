@@ -1,0 +1,12 @@
+<template name="meteorErrors">
+  {{#each errors}}
+    {{> meteorError}}
+  {{/each}}
+</template>
+
+<template name="meteorError">
+  <div class="alert-box" data-alert>
+    {{ message }}
+    <a href="#" class="close">&times;</a>
+  </div>
+</template>
