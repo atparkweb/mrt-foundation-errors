@@ -5,3 +5,5 @@ Twitter Bootstrap.
 Requires foundation package for meteor:
 
     mrt add foundation
+
+For more flexible alert boxes use [Foundation Flash Messages](https://atmosphere.meteor.com/package/foundation-flash-messages) package.
