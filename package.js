@@ -9,3 +9,10 @@ Package.on_use(function (api, where) {
     'errors_list.html',
     'errors_list.js'], 'client');
 });
+
+Package.on_test(function(api) {
+  api.use('foundation-errors', 'client');
+  api.use(['tinytest', 'test-helpers'], 'client');
+
+  api.add_files('errors_tests.js', 'client');
+});

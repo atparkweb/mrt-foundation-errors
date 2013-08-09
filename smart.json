@@ -1,8 +1,8 @@
 {
   "name": "foundation-errors",
   "description": "A pattern to display application errors to the user. Based on errors package but uses Foundation classes in place of Twitter Bootstrap",
-  "homepage": "http://github.com/atparkweb/foundation-errors",
+  "homepage": "https://github.com/atparkweb/foundation-errors",
   "author": "Andy Park",
   "version": "0.1.0",
-  "git": ""
+  "git": "https://github.com/atparkweb/foundation-errors.git"
 }
